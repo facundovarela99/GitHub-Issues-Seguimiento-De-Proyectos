@@ -1,0 +1,24 @@
+{
+  "name": "github-issues-seguimiento-de-proyectos",
+  "version": "1.0.0",
+  "description": "proyecto de prueba para github projects - ticketera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facundovarela99/GitHub-Issues-Seguimiento-De-Proyectos.git"
+  },
+  "author": "facundovarela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facundovarela99/GitHub-Issues-Seguimiento-De-Proyectos/issues"
+  },
+  "homepage": "https://github.com/facundovarela99/GitHub-Issues-Seguimiento-De-Proyectos#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "express": "^5.2.1",
+    "react": "^19.2.0"
+  }
+}
