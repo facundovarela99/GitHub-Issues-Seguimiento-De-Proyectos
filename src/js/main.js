@@ -1,0 +1,1 @@
+console.log('Aqui se manejaría la llamada a la lógica de negocio, tratando de seguir los lineamientos del patrón de diseño FACADE.');
