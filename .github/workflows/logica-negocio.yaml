@@ -1,0 +1,22 @@
+name: GitHub Actions Demo 2 - Lógica de negocio archivo main.js
+run-name: ${{ github.actor }} testeando la lógica de negocio del archivo main.js 🚀
+on: 
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'   # puedes ajustar la versión según tu proyecto
+
+      - name: Instalar dependencias
+        run: npm install       # si tu proyecto tiene package.json
+
+      - name: Ejecutar script main.js
+        run: node src/js/main.js
