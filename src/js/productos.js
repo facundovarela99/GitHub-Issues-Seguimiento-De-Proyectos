@@ -4,6 +4,7 @@ divPadre.className = 'divPadreTarjetas';
 export function mostrarProductos(productos){
     productos.forEach(producto => {
         const tarjeta = document.createElement('div');
+        tarjeta.className = `tarjetaProducto${producto.id}`
         tarjeta.innerHTML = `
             <h2>${producto.title}</h2>
             <p>${producto.description}</p>

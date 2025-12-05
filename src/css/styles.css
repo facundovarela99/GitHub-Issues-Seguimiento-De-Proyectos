@@ -1,0 +1,6 @@
+#body .divPadreTarjetas{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
