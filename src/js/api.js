@@ -6,7 +6,6 @@ async function productos(data) {
             const response = await fetch(data);
             const productos = await response.json();
             mostrarProductos(productos);
-            console.log('HOLA')
       } catch(error){
             console.log(error.message)
       }
